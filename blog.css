@@ -1,0 +1,72 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.navbar {
+    height: 45px;
+    width: 210px;
+    position: fixed;
+    left: 0;
+    z-index: 1;
+    opacity: 0.75;
+    margin: 4% 3%;
+    transition: 0.8s ease;
+    display: flex;
+    background-color: #000;
+    border-radius: 10vh;
+}
+
+.navbar:hover {
+    width: 90%;
+}
+
+.navbar .collapse.navbar-collapse .nav-item {
+    display: none;
+}
+
+.navbar:hover .collapse.navbar-collapse .nav-item {
+    display: inline-block;
+}
+
+.navbar:not(:hover) .collapse.navbar-collapse .nav-item {
+    display: none;
+}
+
+.navbar .collapse.navbar-collapse.show .nav-item {
+    display: block;
+    background-color: #000;
+}
+
+.navbar:hover .navbar_brandlogo img {
+    max-width: 100%;
+}
+
+.heading p{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.content p {
+    margin-top: -18px;
+    padding: 0 187px;
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.blog-img {
+    display: flex;
+    justify-content: center;
+    padding: 0 187px;
+}
+
+.blog-img img {
+    margin-top: 15px
+}
+
+.text-container {
+    padding-top: 0;
+    padding-right: px;
+    font-family: sans-serif;
+}
